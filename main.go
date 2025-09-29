@@ -11,4 +11,12 @@ func add(x int, y int) int{
 func main(){
   sum := add(5,3)
   fmt.Println(sum)
+  
+  var score int = 98;
+  if score > 50 {
+		fmt.Println("Passed!")
+	} else {
+		fmt.Println("Try again.")
+	}
+
   }
