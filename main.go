@@ -19,4 +19,9 @@ func main(){
 		fmt.Println("Try again.")
 	}
 
+	//looping over a slice
+	nums := []int{1, 2, 3}
+for _, v := range nums {
+    fmt.Println(v)
+}
   }
